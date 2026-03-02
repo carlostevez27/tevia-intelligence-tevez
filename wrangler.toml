@@ -1,8 +1,0 @@
-name = "tevia-intelligence-tevez"
-compatibility_date = "2024-04-03"
-
-[site]
-bucket = "./dist"
-
-[vars]
-CLO_TOKEN = "Carlotevez1990#"
