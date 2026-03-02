@@ -1,10 +1,8 @@
 name = "tevia-intelligence-tevez"
-main = "src/index.ts"
 compatibility_date = "2024-04-03"
+
+[site]
+bucket = "./dist"
 
 [vars]
 CLO_TOKEN = "Carlotevez1990#"
-
-[[pages_build_config]]
-build_command = "npx prisma generate && npm run build"
-destination_dir = "dist"
